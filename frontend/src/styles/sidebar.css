@@ -1,0 +1,34 @@
+.sidebar {
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    width: 7%;
+}
+
+.siteTitle {
+    display: block;
+    text-transform: uppercase; 
+    font-size: 20px;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    color: #efef;
+    font-weight: 200;
+}
+
+.allButton {
+    margin-top: 15px;
+}
+
+.categoriesList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.categoriesList li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

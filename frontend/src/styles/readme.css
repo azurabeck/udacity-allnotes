@@ -1,0 +1,77 @@
+.readMeClose {
+    background-color: #2a2929;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    width: 4%;
+    margin-left: 7%;
+    padding: 5px;
+    padding-top: 20%;
+    color: #807d7d;
+    z-index: 999;
+}
+
+
+.readMe {
+    background-color: #2a2929;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    width: 18%;
+    margin-left: 7%;
+    padding: 5px;
+    padding-top: 20%;
+    color: #807d7d;
+    z-index: 999;
+}
+
+
+.readMeBlock {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    padding: 5px;
+}
+
+.listFunctions {
+    font-size: 12px;
+    padding-right: 22px;
+    text-align: left;
+    color: #8f8e8e;
+}
+
+.listFunctions li {
+    margin-bottom: 8px;
+}
+
+.buttonOpen {
+    border: none;
+    background-color: #f1898900;
+    position: absolute;
+    top: 41%;
+    left: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.buttonOpen:hover {
+    background-color: #ff7800;
+    cursor: pointer;
+}
+
+
+.buttonClose {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    height: 37px;
+    padding-top: 2px;
+    margin-top: 25px;
+}
+
+.buttonClose:hover {
+    background-color: #ff7800;
+    cursor: pointer;
+}
+
+.hidden { display:none; }
